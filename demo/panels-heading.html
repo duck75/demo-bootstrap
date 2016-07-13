@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>見出し付きパネル|Bootstrapの練習</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<style>
+.jumbotron nav .glyphicon:before {
+  padding-right: 0.5em;
+}
+.jumbotron nav a:hover {
+  text-decoration: none;
+}
+</style>
+<script src="http://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</head>
+<body>
+<header class="jumbotron">
+  <div class="container">
+    <h1>見出し付きパネル<br><small>Panel</small></h1>
+    <nav>
+      <ul class="list-unstyled">
+        <li><a class="glyphicon glyphicon-home" href="../">Bootstrapの練習</a></li>
+        <li><a class="glyphicon glyphicon-new-window" href="http://getbootstrap.com/components/#panels-heading" target="_blank">公式サイトでの説明</a></li>
+        <li><a class="glyphicon glyphicon-link" href="accordion.html">応用: アコーディオン</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<div class="container">
+  <div class="panel panel-default">
+    <div class="panel-heading">Panel heading without title</div>
+    <div class="panel-body">
+      Panel content
+    </div>
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">Panel title</h3>
+    </div>
+    <div class="panel-body">
+      Panel content
+    </div>
+  </div>
+</div>
+</body>
+</html>
